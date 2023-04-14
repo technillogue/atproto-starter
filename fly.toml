@@ -1,0 +1,12 @@
+app = "mybot"
+kill_signal = "SIGINT"
+kill_timeout = 5
+processes = []
+
+[deploy]
+  strategy = "immediate"
+
+[env]
+
+[experimental]
+  auto_rollback = false
